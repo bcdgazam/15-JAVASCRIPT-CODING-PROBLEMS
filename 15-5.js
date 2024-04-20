@@ -11,4 +11,4 @@ for(let i = 0; i < stResul.length; i++){
     }
 }
 
-console.log('The heighst atel is:', max);
+console.log('The Heighst Number is:', max);

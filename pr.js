@@ -1,10 +1,13 @@
-//Practice folder
+//Practice file
+
 
 let a = 10;
 let b = 20;
-console.log('before swap a =', a , 'b =', b)
 
-let temp = a;
+console.log('Before swap a =', a, 'b =', b)
+
+temp = a;
 a = b;
 b = temp;
-console.log('After swap a =',a, 'b=', b);
+
+console.log('After swap a = ', a, 'b = ', b)

@@ -43,18 +43,35 @@
 // console.log(finalResult);
 
 
-if (business > minister){
-    if(business > sochib){
-        console.log('Businessman is bigger');
-    }
-    else{
-        console.log('Sochib is bigger') 
-    }
-}else {
-    if(minister > sochib){
-        console.log('Minister is bigger')
-    }
-    else{
-        console.log('Sochib is bigger')
-    }
+// let business = 20;
+// let minister = 15;
+// let sochib = 25;
+
+// if (business > minister){
+//     if(business > sochib){
+//         console.log('Businessman is bigger');
+//     }
+//     else{
+//         console.log('Sochib is bigger') 
+//     }
+// }else {
+//     if(minister > sochib){
+//         console.log('Minister is bigger')
+//     }
+//     else{
+//         console.log('Sochib is bigger')
+//     }
+// }
+
+//get max value of 3 numbers
+
+let meh = 20;
+let mir = 5;
+let aza = 7;
+
+if(meh > mir){
+    console.log('Meh is bigger');
+}
+else{
+    console.log('Mir is bigger')
 }

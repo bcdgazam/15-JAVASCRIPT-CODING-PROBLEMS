@@ -88,15 +88,15 @@
 // }
 
 
-let stResul = [23, 50, 60, 10, 20, 98, 100, 102, 97, 96, 80, 103, 151, 50]
+let stResult = [10, 20, 3, 23, 33, 23, 54, 53, 64, 61, 35, 111, 245, 9, 9,]
 
-let max = stResul[0];
+let max = stResult[0];
 
-for(let i = 0; i < stResul.length; i++){
-    let element = stResul[i];
+for(let i = 0; i < stResult.length; i++){
+    let element = stResult[i];
     if(element > max){
         max = element;
     }
 }
 
-console.log('The Heighst Number is:', max);
+console.log(max);

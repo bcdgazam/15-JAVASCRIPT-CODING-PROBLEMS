@@ -65,13 +65,24 @@
 
 //get max value of 3 numbers
 
-let meh = 20;
-let mir = 5;
-let aza = 7;
 
-if(meh > mir){
-    console.log('Meh is bigger');
+let businessMan = 20;
+let sochibMan = 15;
+let amJanata = 250;
+
+if(businessMan > sochibMan){
+    if(businessMan > amJanata){
+        console.log('Business Man Is Bigger')
+    }
+    else{
+        console.log('Am Janata Is Bigger')
+    }
 }
 else{
-    console.log('Mir is bigger')
+    if(sochibMan > amJanata){
+        console.log('Sochib Is Bigger')
+    }
+    else{
+        console.log('Am Janata Is Bigger')
+    }
 }

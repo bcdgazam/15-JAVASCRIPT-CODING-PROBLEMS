@@ -29,15 +29,32 @@
 // [p, q] = [q, p];
 // console.log("after swap: p =", p,",", "q =", q)
 
-let num = 3.49;
-let num2 = '598';
-num2 = Math.abs(num2);
+// let num = 3.49;
+// let num2 = '598';
+// num2 = Math.abs(num2);
 // console.log(num + num2);
 
 // num = ' '+ num;
 // console.log(num + num2);
-let result = (num + num2);
-result = Math.random(result) * 100;
-let finalResult = result.toFixed(0);
-finalResult = Math.abs(finalResult)
-console.log(finalResult);
+// let result = (num + num2);
+// result = Math.random(result) * 100;
+// let finalResult = result.toFixed(0);
+// finalResult = Math.abs(finalResult)
+// console.log(finalResult);
+
+
+if (business > minister){
+    if(business > sochib){
+        console.log('Businessman is bigger');
+    }
+    else{
+        console.log('Sochib is bigger') 
+    }
+}else {
+    if(minister > sochib){
+        console.log('Minister is bigger')
+    }
+    else{
+        console.log('Sochib is bigger')
+    }
+}

@@ -112,12 +112,25 @@
 
 // console.log(sum);
 
-let numbers = [23, 45, 56, 79, 90, 30, 20, 10, 900]
-let sum = 0;
+// let numbers = [23, 45, 56, 79, 90, 30, 20, 10, 900]
+// let sum = 0;
 
-for (let i = 0; i < numbers.length; i++){
-    let element = numbers[i];
-    sumNewValue = sum + element;
+// for (let i = 0; i < numbers.length; i++){
+//     let element = numbers[i];
+//     sumNewValue = sum + element;
+// }
+
+// console.log('Total of the numbers:', sumNewValue);
+
+let stResult = [12, 23, 454, 55, 132, 800, 700, 300, 645, 987]
+
+let max = stResult[0];
+
+for(let i = 0; i < stResult.length; i++){
+    let element = stResult[i];
+    if(element > max){
+        max = element;
+    }
 }
 
-console.log('Total of the numbers:', sumNewValue);
+console.log(max);

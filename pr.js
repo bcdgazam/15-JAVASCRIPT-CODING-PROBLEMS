@@ -88,15 +88,36 @@
 // }
 
 
-let stResult = [10, 20, 3, 23, 33, 23, 54, 53, 64, 61, 35, 111, 245, 9, 9,]
+// let stResult = [10, 20, 3, 23, 33, 23, 54, 53, 64, 61, 35, 111, 245, 9, 9,]
 
-let max = stResult[0];
+// let max = stResult[0];
 
-for(let i = 0; i < stResult.length; i++){
-    let element = stResult[i];
-    if(element > max){
-        max = element;
-    }
+// for(let i = 0; i < stResult.length; i++){
+//     let element = stResult[i];
+//     if(element > max){
+//         max = element;
+//     }
+// }
+
+// console.log(max);
+
+//sum of all array
+
+// let arra = [10, 23, 34, 56, 67, 56, 22, 21, 90, 75, 93, 44, 32, 21, 11, 1]
+// let sum = 0;
+// for(let i = 0; i < arra.length; i++){
+//     let element = arra[i];
+//     sum = sum + element;
+// }
+
+// console.log(sum);
+
+let numbers = [23, 45, 56, 79, 90, 30, 20, 10, 900]
+let sum = 0;
+
+for (let i = 0; i < numbers.length; i++){
+    let element = numbers[i];
+    sumNewValue = sum + element;
 }
 
-console.log(max);
+console.log('Total of the numbers:', sumNewValue);

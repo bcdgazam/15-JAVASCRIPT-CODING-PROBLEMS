@@ -122,15 +122,52 @@
 
 // console.log('Total of the numbers:', sumNewValue);
 
-let stResult = [12, 23, 454, 55, 132, 800, 700, 300, 645, 987]
+// let stResult = [12, 23, 454, 55, 132, 800, 700, 300, 645, 987]
 
-let max = stResult[0];
+// let max = stResult[0];
 
-for(let i = 0; i < stResult.length; i++){
-    let element = stResult[i];
-    if(element > max){
-        max = element;
-    }
-}
+// for(let i = 0; i < stResult.length; i++){
+//     let element = stResult[i];
+//     if(element > max){
+//         max = element;
+//     }
+// }
 
-console.log(max);
+// console.log(max);
+
+
+// let maxvalue = [23, 34, 44, 34, 56, 31, 543, 90];
+// let max = 0;
+
+// for(let i = 0; i < maxvalue.length; i++){
+//     let element = maxvalue[i];
+//     max = max + element;
+// }
+
+// console.log(max);
+
+// let stResult = [12, 20, 32, 45, 98, 45, 100, 1000, 98, 99, 91]
+// let mayesiha = 0;
+
+// for(let i = 0; i <stResult.length; i++){
+//     let element = stResult[i];
+//     mayesiha = mayesiha + element;
+// }
+
+// console.log(mayesiha);
+
+
+// let maruf = 'misty khay';
+// let mayeisha  = 'Kalojam Khay'
+
+// temp = maruf;
+
+// maruf = mayeisha;
+// mayeisha = temp;
+
+// console.log('Maruf khay =', maruf,' ; ', 'mayeisha Khay = ', mayeisha);
+
+let maruf = 900;
+let mayeisha = 1000;
+
+console.log(maruf + mayeisha);

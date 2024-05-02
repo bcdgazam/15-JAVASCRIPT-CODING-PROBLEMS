@@ -66,23 +66,37 @@
 //get max value of 3 numbers
 
 
-let businessMan = 20;
-let sochibMan = 15;
-let amJanata = 250;
+// let businessMan = 20;
+// let sochibMan = 15;
+// let amJanata = 250;
 
-if(businessMan > sochibMan){
-    if(businessMan > amJanata){
-        console.log('Business Man Is Bigger')
-    }
-    else{
-        console.log('Am Janata Is Bigger')
+// if(businessMan > sochibMan){
+//     if(businessMan > amJanata){
+//         console.log('Business Man Is Bigger')
+//     }
+//     else{
+//         console.log('Am Janata Is Bigger')
+//     }
+// }
+// else{
+//     if(sochibMan > amJanata){
+//         console.log('Sochib Is Bigger')
+//     }
+//     else{
+//         console.log('Am Janata Is Bigger')
+//     }
+// }
+
+
+let stResul = [23, 50, 60, 10, 20, 98, 100, 102, 97, 96, 80, 103, 151, 50]
+
+let max = stResul[0];
+
+for(let i = 0; i < stResul.length; i++){
+    let element = stResul[i];
+    if(element > max){
+        max = element;
     }
 }
-else{
-    if(sochibMan > amJanata){
-        console.log('Sochib Is Bigger')
-    }
-    else{
-        console.log('Am Janata Is Bigger')
-    }
-}
+
+console.log('The Heighst Number is:', max);

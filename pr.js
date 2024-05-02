@@ -29,10 +29,15 @@
 // [p, q] = [q, p];
 // console.log("after swap: p =", p,",", "q =", q)
 
-let num = 3.333;
+let num = 3.49;
 let num2 = '598';
 num2 = Math.abs(num2);
 // console.log(num + num2);
 
 // num = ' '+ num;
 // console.log(num + num2);
+let result = (num + num2);
+result = Math.random(result) * 100;
+let finalResult = result.toFixed(0);
+finalResult = Math.abs(finalResult)
+console.log(finalResult);

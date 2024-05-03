@@ -170,7 +170,11 @@
 let a = 10;
 let b = 20;
 
-let temp = a;
-a = b;
-b = temp;
-console.log('After swap: a =', a, 'b = ', b)
+// let temp = a;
+// a = b;
+// b = temp;
+// console.log('After swap: a =', a, 'b = ', b)
+
+[a, b] = [b, a]
+console.log(a, b)
+

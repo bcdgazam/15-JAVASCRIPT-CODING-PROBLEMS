@@ -167,14 +167,36 @@
 
 // console.log('Maruf khay =', maruf,' ; ', 'mayeisha Khay = ', mayeisha);
 
-let a = 10;
-let b = 20;
+// let a = 10;
+// let b = 20;
 
 // let temp = a;
 // a = b;
 // b = temp;
 // console.log('After swap: a =', a, 'b = ', b)
 
-[a, b] = [b, a]
-console.log(a, b)
+// [a, b] = [b, a]
+// console.log(a, b)
 
+//Find Max of 2 values
+
+let business = 90;
+let sorkari = 15;
+let jonogon = 30;
+
+if(business > sorkari){
+    if(business > jonogon){
+        console.log('Business man is bigger')
+    }
+    else{
+        console.log('Jonogon is better')
+    }
+}
+else{
+    if(sorkari > jonogon){
+        console.log('Sorkari bakti valo')
+    }
+    else{
+        console.log('jonogon is better')
+    }
+}

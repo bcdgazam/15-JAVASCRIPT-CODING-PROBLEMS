@@ -167,7 +167,10 @@
 
 // console.log('Maruf khay =', maruf,' ; ', 'mayeisha Khay = ', mayeisha);
 
-let maruf = 900;
-let mayeisha = 1000;
+let a = 10;
+let b = 20;
 
-console.log(maruf + mayeisha);
+let temp = a;
+a = b;
+b = temp;
+console.log('After swap: a =', a, 'b = ', b)

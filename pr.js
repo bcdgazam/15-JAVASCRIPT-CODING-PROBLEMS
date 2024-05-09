@@ -74,15 +74,28 @@
 
 //get max number from an array
 
-let stResult = [23, 45, 23, 53, 53, 98, 97, 90, 24, 45, 34]
+// let stResult = [23, 45, 23, 53, 53, 98, 97, 90, 24, 45, 34]
 
-let max = stResult[0];
+// let max = stResult[0];
+
+// for(let i = 0; i < stResult.length; i++){
+//     let element = stResult[i];
+//     if(element > max){
+//         max = element;
+//     }
+// }
+
+// console.log(max);
+
+//sum of all number of an array
+
+let stResult = [23, 45, 23, 53, 53, 98, 97, 90, 24, 45, 34,10]
+
+let sum = 0;
 
 for(let i = 0; i < stResult.length; i++){
     let element = stResult[i];
-    if(element > max){
-        max = element;
-    }
+    sum = element + sum ;
 }
 
-console.log(max);
+console.log(sum);

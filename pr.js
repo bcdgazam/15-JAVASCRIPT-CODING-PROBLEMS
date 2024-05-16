@@ -1,101 +1,73 @@
-// let x = 10;
-// let y = 20;
+// //Find max of two values
 
-// console.log('Before swap a =', x, ';', 'b =', y)
+// let businessMan = 900;
+// let doctorMan = 800;
+// let sorkariMan = 500;
 
-// let temp = x + y;
-// x = y;
-// y = temp;
-// console.log('After swap a =', x, ';', 'b =', y)
-
-// x = x + y;
-// y = x - y;
-// x = x - y;
-// console.log('After swap a =', x, ';', 'b =', y)
-
-// [x, y ] = [y, x]
-// console.log('After swap a =', x, ';', 'b =', y)
-
-
-// let num = 10.50;
-// console.log(num);
-
-// let result = Math.random(num) * 10;
-// let fixedNumber = result.toFixed(0)
-// let fixedResult = Math.abs(fixedNumber)
-
-// console.log(fixedResult)
-
-//Find max of two values
-
-// let numOne = 1000;
-// let numTwo = 300;
-// let numThree = 4000;
-
-// if(numOne > numOne){
-//     console.log('Number One is bigger')
-// }
-// else{
-//     console.log('Number Tow is bigger')
-// }
-
-// if(numOne > numTwo){
-//     if(numOne > numThree){
-//         console.log('Number One is bigger')
+// if(businessMan > doctorMan){
+//     if(businessMan > sorkariMan){
+//         console.log('Business man is bigger');
 //     }
 //     else{
-//         console.log('Number Three is bigger')
+//         console.log('Sorkari man is bigger');
 //     }
+// }
+// else if(doctorMan > sorkariMan){
+//     console.log('Doctor is bigger');
 // }
 // else{
-//     if(numTwo > numThree){
-//         console.log('Number Two is bigger')
-//     }
-//     else{
-//         console.log('Number Three is bigger')
-//     }
+//     console.log('Sorkari man is bigger');
 // }
 
+//find the largest element of an array
 
-//Find the largest element of an array
-
-// let arr = [23, 45, 32, 22, 54, 66, 65, 90, 23, 5, 43, 531, 555,66666]
-
-// let max = arr[0];
-
-// for(let i = 0; i < arr.length; i++){
-//     let element = arr[i];
-//     if(element > max){
-//         max = element;
-//     }
-// }
-
-// console.log(max);
-
-//get max number from an array
-
-// let stResult = [23, 45, 23, 53, 53, 98, 97, 90, 24, 45, 34]
-
-// let max = stResult[0];
+// let stResult = [23, 45, 64, 64, 90,1500, 24, 88, 90, 900];
+// let maxValue = [0];
 
 // for(let i = 0; i < stResult.length; i++){
-//     let element = stResult[i];
-//     if(element > max){
-//         max = element;
-//     }
+// //     let element = stResult[i];
+// //     if(element > maxValue){
+// //         maxValue = element;
+// //     }
+// // }
+
+// // console.log(maxValue);
+
+// let res = [10, 20, 30, 40];
+// let sum = 0;
+// for(let i = 0; i < res.length; i++){
+//     let element = res[i];
+//     newSum = sum + element;
 // }
 
-// console.log(max);
+// console.log(newSum);
 
-//sum of all number of an array
+// let numbers = [23, 45, 56, 79, 90, 30, 20, 10, 900]
+// let sum = 0;
 
-let stResult = [23, 45, 23, 53, 53, 98, 97, 90, 24, 45, 34,10]
+// for (let i = 0; i < numbers.length; i++){
+//     let element = numbers[i];
+//     sumNewValues = sum + element;
+// }
 
-let sum = 0;
+// console.log('Total of the numbers:', sumNewValue);
 
-for(let i = 0; i < stResult.length; i++){
-    let element = stResult[i];
-    sum = element + sum ;
-}
+// let largestNumber = [102, 434, 55, 22, 56, 256, 98, 987];
+// let maxNumber = [0];
 
-console.log(sum);
+// for(let i = 0; i < largestNumber.length; i++){
+//     let element = largestNumber[i];
+//     if(element > maxNumber){
+//         maxNumber = element;
+//     }
+// }
+// console.log(maxNumber);
+
+// let sum = 0;
+
+// for(let i = 0; i < largestNumber.length; i++){
+//     let element = largestNumber[i];
+//     sum = sum + element;
+// }
+
+// console.log(sum);

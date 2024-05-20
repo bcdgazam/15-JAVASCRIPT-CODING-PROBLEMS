@@ -1,73 +1,88 @@
-// //Find max of two values
+// let x = 10;
+// let y = 20;
+// // let temp = x;
+// // x = y;
+// // y = temp;
+// // console.log('x:', x, 'y:', y);
 
-// let businessMan = 900;
-// let doctorMan = 800;
-// let sorkariMan = 500;
+// x = x + y;
+// y = x - y;
+// x = x-y;
+// console.log('x:', x, 'y:', y);
 
-// if(businessMan > doctorMan){
-//     if(businessMan > sorkariMan){
-//         console.log('Business man is bigger');
-//     }
-//     else{
-//         console.log('Sorkari man is bigger');
-//     }
-// }
-// else if(doctorMan > sorkariMan){
-//     console.log('Doctor is bigger');
+// let randNumber = Math.random() * 6;
+// console.log(randNumber);
+
+
+let num1 = 900;
+let num2 = 600;
+let num3 = 400;
+
+// if(num1 > num2){
+//     console.log('NumberOne is bigger');
 // }
 // else{
-//     console.log('Sorkari man is bigger');
+//     console.log('NumberTwo is bigger');
 // }
 
-//find the largest element of an array
-
-// let stResult = [23, 45, 64, 64, 90,1500, 24, 88, 90, 900];
-// let maxValue = [0];
-
-// for(let i = 0; i < stResult.length; i++){
-// //     let element = stResult[i];
-// //     if(element > maxValue){
-// //         maxValue = element;
-// //     }
-// // }
-
-// // console.log(maxValue);
-
-// let res = [10, 20, 30, 40];
-// let sum = 0;
-// for(let i = 0; i < res.length; i++){
-//     let element = res[i];
-//     newSum = sum + element;
-// }
-
-// console.log(newSum);
-
-// let numbers = [23, 45, 56, 79, 90, 30, 20, 10, 900]
-// let sum = 0;
-
-// for (let i = 0; i < numbers.length; i++){
-//     let element = numbers[i];
-//     sumNewValues = sum + element;
-// }
-
-// console.log('Total of the numbers:', sumNewValue);
-
-// let largestNumber = [102, 434, 55, 22, 56, 256, 98, 987];
-// let maxNumber = [0];
-
-// for(let i = 0; i < largestNumber.length; i++){
-//     let element = largestNumber[i];
-//     if(element > maxNumber){
-//         maxNumber = element;
+// if(num1 > num2){
+//     if(num1 > num3){
+//         console.log('NumOne is really bigger');
+//     }
+//     else{
+//         console.log('NumberTwo Is bigger');
 //     }
 // }
-// console.log(maxNumber);
+// else if(num2 > num3){
+//     console.log('NumberTwo is bigger');
+// }
+// else{
+//     console.log('NumberThree is bigger');
+// }
 
+// let array = [10, 20, 30, 40, 89, 90, 77, 43, 12, 11, 500]
+
+// let max = array[0];
+
+// for(let i = 0; i < array.length; i++){
+//     let element = array[i];
+//     if(element > max){
+//         max = element;
+//     }
+// }
+// console.log(max);
+
+
+
+// let stResult = [2, 12, 35, 55, 64, 66, 89, 90, 100]
+// let max = stResult[0];
+
+// for(let i = 0; i < stResult.length; i++){
+//     let element = stResult[i];
+//     if(element > max){
+//         max = element
+//     }
+// }
+
+// let sumArray = [10, 10, 10, 10, 10];
 // let sum = 0;
 
-// for(let i = 0; i < largestNumber.length; i++){
-//     let element = largestNumber[i];
+// for(let i = 0; i <sumArray.length; i++){
+//     let element = sumArray[i];
 //     sum = sum + element;
 // }
 
 // console.log(sum);
+
+
+let removeDuplicate = [10, 10, 23, 34, 23]
+let newRoom = [];
+
+for(let i = 0; i <removeDuplicate.length; i++){
+    let element = removeDuplicate[i];
+    if(element == -1){
+        newRoom = element;
+    }
+}
+
+console.log(newRoom);
